@@ -408,7 +408,7 @@ body {
 .about-content {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
 }
 
 .about-image {
@@ -430,7 +430,32 @@ body {
     margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        gap: 30px;
+    }
 
+    #about, #about-preview {
+        padding: 30px 20px;
+    }
+
+    .about-text h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: auto;
+    }
+}
 /*========================= BLOG ======================================= */
 
 #blog {
@@ -656,6 +681,40 @@ body {
     text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .portfolio-grid.single-item {
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-item {
+        max-width: 100%;
+    }
+
+    .portfolio-overlay {
+        padding: 20px 15px 15px;
+        font-size: 0.9rem;
+    }
+
+    .portfolio-description {
+        padding: 0 10px;
+        text-align: justify;
+    }
+
+    .portfolio-description h3 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .portfolio-description p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+}
 
 /* ------------------------ CONTACT US------------------------------ */
 
