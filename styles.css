@@ -99,7 +99,7 @@ body {
 }
 
 .contact-button:hover {
-  background-color: #28a745;
+  background-color: #FFD700;
   color: black !important;
 }
 
@@ -339,7 +339,7 @@ body {
  
  
    
-  background-image: url('images/hero-section-image1.gif');
+  background-image: url('images/hero-section-image3-2.gif');
  
 }
 
@@ -351,7 +351,7 @@ body {
 
 #slide-three {
 
-  background-image: url('images/hero-section-image3.jpg');
+  background-image: url('images/hero-section-image1.gif');
  
 }
 
@@ -391,7 +391,7 @@ body {
 }
 
 .explore-button:hover {
-  background-color: #28a745;
+  background-color: #FFD700;
   color: #333;
 }
 
